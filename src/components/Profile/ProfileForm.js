@@ -13,7 +13,7 @@ const ProfileForm = () => {
     const enteredNewPassword = newPasswordInputRef.current.value;
 
     // add validation
-    fetch('https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyDdknRTi1K2OXEaZ4NnnpMFBp4aVaejyLQ', {
+    fetch('ADD FIREBASE AUTHENTICATION URL HERE', {
       method: 'POST',
       body: JSON.stringify({
         idToken: authCtx.token,
