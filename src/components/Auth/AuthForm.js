@@ -24,10 +24,10 @@ const AuthForm = () => {
     let url;
     if (isLogin) {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDdknRTi1K2OXEaZ4NnnpMFBp4aVaejyLQ";
+        "ADD FIREBASE AUTHENTICATION URL HERE";
     } else {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDdknRTi1K2OXEaZ4NnnpMFBp4aVaejyLQ";
+        "ADD FIREBASE AUTHENTICATION URL HERE";
     }
     fetch(url, {
       method: "POST",
